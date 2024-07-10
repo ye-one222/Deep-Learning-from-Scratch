@@ -68,7 +68,7 @@ class TwoLayerNet:
        
     def gradient(self, x, t):
         '''
-        가중치 매개변수의 기울기를 구함 (numerical_gradient의 성능 개선ver)
+        가중치 매개변수의 기울기를 구함 (numerical_gradient의 성능 개선ver) -> ch5에서 배울거임
         '''
         W1, W2 = self.params['W1'], self.params['W2']
         b1, b2 = self.params['b1'], self.params['b2']
